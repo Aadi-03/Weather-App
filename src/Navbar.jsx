@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 function Navbar(){
         const [darkMode, setDarkMode] = useState(false);
-        const [backimage, setImage] = useState('https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?cs=srgb&dl=pexels-pixabay-531756.jpg&fm=jpg');
+        const [backimage, setImage] = useState('/src/assests/images/lightmode.jpg');
 
         const handleDarkMode = () => {
                 const image = document.querySelector('.image');
@@ -23,10 +23,10 @@ function Navbar(){
 
         useEffect(() => {
                 if(!darkMode){
-                        setImage('https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?cs=srgb&dl=pexels-pixabay-209831.jpg&fm=jpg');
+                        setImage('/src/assests/images/darkmode.jpg');
                 }
                 else{
-                        setImage('https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?cs=srgb&dl=pexels-pixabay-531756.jpg&fm=jpg');
+                        setImage('/src/assests/images/lightmode.jpg');
                 }
                 document.body.style.backgroundImage = `url(${backimage})`;
                 
