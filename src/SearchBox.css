@@ -1,0 +1,41 @@
+.Search-box{
+        display: flex;
+        height : 10vh;
+        padding : 20px;
+        justify-content: center;
+        align-items: center;
+}
+
+.Search-box input{
+        font-size: 1.1rem;
+        padding : 10px 50px 10px 10px;
+        width: 50vw;
+        height : 5vh;
+
+        border : none;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+
+        transition : all 0.3s ease-in-out;
+}
+
+.Search-box img{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        right : 40px;
+        transition : all 0.3s ease-in-out;
+}
+
+.Search-box img:hover{
+        transform: scale(1.1);
+        cursor : pointer;
+}
+.Search-box input:hover{
+        box-shadow: 0 0 10px 0 rgb(255, 255, 255);
+}
+
+.Search-box button:hover{
+        box-shadow: 0 0 10px 0 rgb(255, 255, 255);
+        cursor : pointer;
+}

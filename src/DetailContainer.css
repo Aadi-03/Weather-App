@@ -1,0 +1,139 @@
+.Detail-page{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        padding : 10px;
+}
+
+.Title-Container{
+        width : 100%; 
+        text-align: center;
+        font-size: 2rem;
+        font-style: italic;
+        font-weight: bold;
+        margin : 10px;
+}
+
+.Detail-Container{
+        height : 400px;
+        width : 45%;
+        background-color: rgba(255, 255, 255, 0.4);
+        border-radius: 15px;
+        
+        font-size: 1.5rem;
+
+        padding : 10px;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+
+}
+
+.Image-Container{
+        height : 400px;
+        width : 45%;
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 15px;
+        
+        font-size: 1.5rem;
+        
+        padding : 10px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.2s ease-in-out;
+}
+
+.Image-Container img{
+        width: 50%;
+        height: 50%;
+        margin : 10px 0px;
+        border-radius: 15px;
+}
+
+.Image-Container h4 span img{
+        width: 20px;
+        height: 20px;
+        margin-right: 10px
+}
+.Image-Container h1,h4{
+        width: 90%;
+        border-radius: 7px;
+        color : rgb(0, 0, 0);
+        font-family: 'Arial';
+}
+
+.Image-Container h4{
+        display: flex;
+        align-items: center;
+}
+.Image-Container h1{
+        text-align: center;
+}
+.Image-Container p{
+        font-size: 1.6rem;
+        font-weight: bold;
+        color : rgb(0, 0, 0);
+        margin-bottom: 10px;
+}
+.Image-Container p::first-letter{
+        text-transform: uppercase;
+}
+
+
+.Detail-Item{
+        height : 100px;
+        width : 45%;
+        background-color: rgba(173, 166, 166, 0.2);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition : all 0.2s ease-in-out;
+}
+
+.Detail-Item img{
+        height : 30px;
+        width : 30px;
+}
+
+.Detail-Item h4{
+        font-size: 1rem;
+        font-weight: lighter;
+        color : rgba(61, 52, 52, 0.826);
+        margin : 5px 0px;
+        text-align: center;
+}
+
+.Detail-Item h3{
+        font-size: 1.3rem;
+}
+.Detail-Item:hover{
+        background-color: rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+}
+
+.Image-Container:hover{
+        background-color: rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 807px){
+        .Detail-Container{
+                width : 70vw;
+                padding : 0px;
+        }
+        .Image-Container{
+                width : 70vw;
+                padding : 0px;
+                margin : 10px 0px;
+        }
+        
+}

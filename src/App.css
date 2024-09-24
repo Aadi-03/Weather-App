@@ -1,0 +1,16 @@
+*{
+        margin : 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      
+      body{
+        background-image: url("https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?cs=srgb&dl=pexels-pixabay-531756.jpg&fm=jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        transition: all 0.5s ease-in-out;
+      }
+      
+      
